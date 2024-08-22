@@ -1,8 +1,8 @@
 # Evaluación de diagnóstico de Arquitectura de Computadoras
 
-| Nombre: | Fecha: | Matrícula: |
-|---------|--------|-----------|
-|         |        |           |
+| Nombre:                             | Fecha:             | Matrícula: |
+|-------------------------------------|--------------------|------------|
+| EdgarAxel Sandoval Hernandez        |  22/08/2024        |  22620093  |
 
 ## Instrucciones
 
@@ -11,7 +11,7 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 ## Sección 1: Conocimiento Básico de Software (20%)
 
 1. **Pregunta de Opción Múltiple:**  
-   ¿Cuál de los siguientes es un ejemplo de software de aplicación?  
+   ¿Cuál de los siguientes es un ejemplo de software de aplicación?  RESPUESTA (d)
    a) Microsoft Word  
    b) Windows 10  
    c) BIOS  
@@ -19,12 +19,13 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 2. **Pregunta Abierta:**  
    Define qué es un sistema de gestión de bases de datos (DBMS) y da un ejemplo de su uso.
+   (es la q se encarga de gurdar los datos de las personales , privados y contraseñas)
 
-3. **Pregunta de Relación:**  
+4. **Pregunta de Relación:**  
    Relaciona los siguientes tipos de software con su función principal:
-   - [ ] Software de sistema
-   - [ ] Software de aplicación
-   - [ ] Software de programación
+   - [ B ] Software de sistema
+   - [ A ] Software de aplicación
+   - [ C ] Software de programación
 
    Funciones:
    - A) Facilita tareas específicas del usuario.
@@ -34,7 +35,7 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 ## Sección 2: Conocimiento Básico de Hardware (20%)
 
 1. **Pregunta de Selección Múltiple:**  
-   ¿Cuál de los siguientes componentes es parte del hardware de una computadora?  
+   ¿Cuál de los siguientes componentes es parte del hardware de una computadora?  RESPUESTA (a)
    a) CPU  
    b) Sistema operativo  
    c) Microsoft Excel  
@@ -42,12 +43,12 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 2. **Pregunta Abierta:**  
    Explica la función de la unidad central de procesamiento (CPU) en una computadora.
-
+(Es el que se encarga de de los datos generales de los harware) 
 3. **Pregunta de Emparejamiento:**  
    Empareja los siguientes componentes de hardware con su descripción:
-   - [ ] RAM
-   - [ ] Disco Duro
-   - [ ] Tarjeta Madre
+   - [ C ] RAM
+   - [ A] Disco Duro
+   - [ B ] Tarjeta Madre
 
    Descripciones:
    - A) Memoria de almacenamiento temporal de alta velocidad.
@@ -58,9 +59,9 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 1. **Pregunta de Verdadero/Falso:**  
    Un sistema operativo es el software que gestiona el hardware y provee servicios a los programas de aplicación.  
-
+   (SI)
    *Justifique su respuesta*.
-
+    (el sofware nesesita de del hadware para q pueda prosesar los datos q contiene )
 2. **Pregunta de Comparación:**  
    Compara dos sistemas operativos populares en términos de interfaz de usuario y gestión de archivos.
 
@@ -77,22 +78,29 @@ Responde las siguientes preguntas con claridad. Cada sección tiene un peso espe
 
 3. **Pregunta Abierta:**  
    Explica la diferencia entre un bit y un byte, y cómo se utiliza el código binario en la representación de datos.
+   (un bit es una unidad binaria )
 
 ## Sección 5: Operaciones con Compuertas Lógicas (20%)
 
 1. **Pregunta de Opción Múltiple:**  
    ¿Cuál de las siguientes compuertas lógicas produce un resultado de 1 solo si ambas entradas son 1?
    a) [ ] OR  
-   b) [ ] AND  
+   b) [ X ] AND  
    c) [ ] NOT  
    d) [ ] XOR
 
 2. **Pregunta de Desarrollo:**  
    Dibuja el circuito lógico correspondiente a la expresión booleana: A•B+C.
 
-3. **Pregunta de Ejercicio:**  
+   A ----\
+      AND ----\ 
+B ----/        OR ---- Output
+               /
+C ------------/
+
+4. **Pregunta de Ejercicio:**  
    Completa la tabla de verdad para la compuerta XOR con las siguientes combinaciones de entrada:
-   - A = 0, B = 0
-   - A = 0, B = 1
-   - A = 1, B = 0
-   - A = 1, B = 1
+   - A = 0, B = 0  XOR= 0
+   - A = 0, B = 1  XOR= 1
+   - A = 1, B = 0  XOR= 1
+   - A = 1, B = 1  XOR= 0
